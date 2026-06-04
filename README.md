@@ -52,26 +52,29 @@ Optimized Threshold	0.65
 VerifyFace-Deepfake-Detection/
 
 ├── backend/
-│ └── main.py
+│   └── main.py              # FastAPI inference backend
 │
 ├── frontend/
-│ └── app.py
+│   └── app.py               # Streamlit dashboard
 │
 ├── models/
-│ └── efficientnet.py
+│   └── efficientnet.py      # EfficientNetV2 model architecture
 │
 ├── training/
-│ ├── train.py
-│ └── resume.py
+│   ├── train.py             # Model training pipeline
+│   └── resume.py            # Resume training script
 │
 ├── evaluation/
-│ ├── evaluate.py
-│ └── audit.py
+│   ├── evaluate.py          # Model evaluation
+│   ├── audit.py             # Model audit workflow
+│   └── ml_audit_report.md   # Performance report
 │
 ├── explainability/
-│ └── gradcam.py
+│   └── gradcam.py           # Grad-CAM visualization
 │
-├── requirements.txt
+├── requirements.txt         # Project dependencies
+├── implementation_plan.md
+├── ml_audit_report.md
 └── README.md
 
 🚀 Getting Started
