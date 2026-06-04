@@ -47,8 +47,8 @@ Accuracy	80.58%
 ROC-AUC Score	92.42%
 F1 Score	81.71%
 Optimized Threshold	0.65
-📁 Project Structure
 
+📁 Project Structure
 VerifyFace-Deepfake-Detection/
 
 ├── backend/
